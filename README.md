@@ -36,17 +36,24 @@ Guide](http://github.com/chneukirchen/styleguide/).
 
 * Use `def` with parentheses when there are arguments.
 
+* Use parentheses for method calls when there are arguments, unless it's part of
+  a DSL.
+
 * Use `&&` and `||` for boolean expressions.
 
 * Use `{...}` for single-line blocks and `do...end` for multi-line blocks.
 
 * Avoid `return` where not required.
 
+* Avoid using `return` inside blocks.
+
 * Avoid line continuation (`\`) where not required.
 
 * Avoid using the return value of `=` in comparisons.
 
 * Use `||=` freely.
+
+* Avoid the `and` and `or` operators.
 
 ## Naming:
 
