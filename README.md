@@ -30,10 +30,14 @@ Guide](http://github.com/chneukirchen/styleguide/).
 
 * Avoid trailing whitespace.
 
+* Don't align variables/constants assignments or hash keys/values vertically.
 
 ## Syntax:
 
 * Use `def` with parentheses when there are arguments.
+
+* Use parentheses for method calls when there are arguments, unless it's part of
+  a DSL.
 
 * Use `&&` and `||` for boolean expressions.
 
@@ -41,11 +45,15 @@ Guide](http://github.com/chneukirchen/styleguide/).
 
 * Avoid `return` where not required.
 
+* Avoid using `return` inside blocks.
+
 * Avoid line continuation (`\`) where not required.
 
 * Avoid using the return value of `=` in comparisons.
 
 * Use `||=` freely.
+
+* Avoid the `and` and `or` operators.
 
 ## Naming:
 
@@ -83,6 +91,10 @@ Guide](http://github.com/chneukirchen/styleguide/).
 * Don't use catch-all `rescue`.
 
 * Don't use `case` without an `else` branch.
+
+* Use the hashrocket notation (`=>`) to build a literal Hash.
+
+* Use doublequotes for one-line strings.
 
 ## General:
 
