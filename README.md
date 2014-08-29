@@ -30,6 +30,7 @@ Guide](http://github.com/chneukirchen/styleguide/).
 
 * Avoid trailing whitespace.
 
+* Don't align variables/constants assignments or hash keys/values vertically.
 
 ## Syntax:
 
