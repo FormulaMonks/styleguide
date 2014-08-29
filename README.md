@@ -92,6 +92,10 @@ Guide](http://github.com/chneukirchen/styleguide/).
 
 * Don't use `case` without an `else` branch.
 
+* Use the hashrocket notation (`=>`) to build a literal Hash.
+
+* Use doublequotes for one-line strings.
+
 ## General:
 
 * Code in a functional way, avoid mutation when it makes sense.
